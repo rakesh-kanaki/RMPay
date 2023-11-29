@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_rmpay_su_paymentapproval">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RM-Pay-SU-Payment proposal approval</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RM-Pay/RM-Pay-SU-Payment proposal approval.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rmpay_su_paymentapproval">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>RM-Pay-SU-Payment proposal approval</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

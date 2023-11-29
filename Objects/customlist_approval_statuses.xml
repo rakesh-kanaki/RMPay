@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_approval_statuses">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Approval Statuses</name>
+  <customvalues>
+    <customvalue scriptid="val_104585_7931060_sb1_222">
+      <isinactive>F</isinactive>
+      <value>Pending Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_104586_7931060_sb1_414">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_104587_7931060_sb1_590">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+  </customvalues>
+</customlist>

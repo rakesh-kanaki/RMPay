@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03 pain.001.001.03.xsd">
+<CstmrCdtTrfInitn>
+    <GrpHdr>
+        <MsgId>00000076</MsgId>							
+        <CreDtTm>26/10/2023</CreDtTm>		
+        <NbOfTxs>3</NbOfTxs>						
+        <CtrlSum>500</CtrlSum>					
+        <InitgPty>
+            <Nm>RM Pay - NO</Nm>			
+            <Id>
+                <OrgId>
+                    <Othr>
+                        <Id></Id>		
+                        <SchmeNm>
+                            <Cd>CUST</Cd>
+                        </SchmeNm>
+                    </Othr>
+                    <Othr>
+                        <Id></Id>			
+                        <SchmeNm>
+                            <Cd>BANK</Cd>
+                        </SchmeNm>
+                    </Othr>
+                </OrgId>
+            </Id>
+        </InitgPty>
+    </GrpHdr>
+<!--start of Loop-->
+    <PmtInf>
+        <PmtInfId>00000076_00000076/1</PmtInfId>			
+        <PmtMtd>TRF</PmtMtd>
+        <BtchBookg>false</BtchBookg>
+        <NbOfTxs>1</NbOfTxs>						
+        <CtrlSum>200</CtrlSum>						
+        <ReqdExctnDt>2023-10-05T07:00:00.000Z</ReqdExctnDt>		
+        <Dbtr>
+            <Nm>RM Pay - NO</Nm>			
+            <PstlAdr>
+                <StrtNm></StrtNm>		
+                <PstCd></PstCd>					
+                <TwnNm></TwnNm>			
+                <Ctry>NO</Ctry>						
+                <AdrLine>      NO</AdrLine>  
+            </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+            <Id>  
+                <IBAN></IBAN>		
+            </Id>
+            <Ccy></Ccy>							
+        </DbtrAcct>
+        <DbtrAgt>
+            <FinInstnId>
+                <BIC></BIC>					
+            </FinInstnId>
+        </DbtrAgt>
+
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>00000076/1</InstrId>		
+                <EndToEndId>00000076/1</EndToEndId>	
+            </PmtId>
+            <Amt>
+                <InstdAmt Ccy="5">200</InstdAmt>	  
+            </Amt>
+            <Cdtr>
+                <Nm>13358</Nm>				
+                <PstlAdr>
+                    <Ctry>13358</Ctry>					
+                </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id></Id>		
+                        <SchmeNm>
+                            <Cd>BBAN</Cd>			
+                        </SchmeNm>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <RmtInf>
+                <Ustrd>VENDBILL1021</Ustrd>					
+            </RmtInf>
+        </CdtTrfTxInf>
+    </PmtInf>
+<PmtInf>
+        <PmtInfId>00000076_00000076/2</PmtInfId>			
+        <PmtMtd>TRF</PmtMtd>
+        <BtchBookg>false</BtchBookg>
+        <NbOfTxs>1</NbOfTxs>						
+        <CtrlSum>200</CtrlSum>						
+        <ReqdExctnDt>2023-10-05T07:00:00.000Z</ReqdExctnDt>		
+        <Dbtr>
+            <Nm>RM Pay - NO</Nm>			
+            <PstlAdr>
+                <StrtNm></StrtNm>		
+                <PstCd></PstCd>					
+                <TwnNm></TwnNm>			
+                <Ctry>NO</Ctry>						
+                <AdrLine>      NO</AdrLine>  
+            </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+            <Id>  
+                <IBAN></IBAN>		
+            </Id>
+            <Ccy></Ccy>							
+        </DbtrAcct>
+        <DbtrAgt>
+            <FinInstnId>
+                <BIC></BIC>					
+            </FinInstnId>
+        </DbtrAgt>
+
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>00000076/2</InstrId>		
+                <EndToEndId>00000076/2</EndToEndId>	
+            </PmtId>
+            <Amt>
+                <InstdAmt Ccy="1">200</InstdAmt>	  
+            </Amt>
+            <Cdtr>
+                <Nm>13357</Nm>				
+                <PstlAdr>
+                    <Ctry>13357</Ctry>					
+                </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id></Id>		
+                        <SchmeNm>
+                            <Cd>BBAN</Cd>			
+                        </SchmeNm>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <RmtInf>
+                <Ustrd>VENDBILL1020</Ustrd>					
+            </RmtInf>
+        </CdtTrfTxInf>
+    </PmtInf>
+<PmtInf>
+        <PmtInfId>00000076_00000076/3</PmtInfId>			
+        <PmtMtd>TRF</PmtMtd>
+        <BtchBookg>false</BtchBookg>
+        <NbOfTxs>1</NbOfTxs>						
+        <CtrlSum>100</CtrlSum>						
+        <ReqdExctnDt>2023-09-23T07:00:00.000Z</ReqdExctnDt>		
+        <Dbtr>
+            <Nm>RM Pay - NO</Nm>			
+            <PstlAdr>
+                <StrtNm></StrtNm>		
+                <PstCd></PstCd>					
+                <TwnNm></TwnNm>			
+                <Ctry>NO</Ctry>						
+                <AdrLine>      NO</AdrLine>  
+            </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+            <Id>  
+                <IBAN></IBAN>		
+            </Id>
+            <Ccy></Ccy>							
+        </DbtrAcct>
+        <DbtrAgt>
+            <FinInstnId>
+                <BIC></BIC>					
+            </FinInstnId>
+        </DbtrAgt>
+
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>00000076/3</InstrId>		
+                <EndToEndId>00000076/3</EndToEndId>	
+            </PmtId>
+            <Amt>
+                <InstdAmt Ccy="1">100</InstdAmt>	  
+            </Amt>
+            <Cdtr>
+                <Nm>13057</Nm>				
+                <PstlAdr>
+                    <Ctry>13057</Ctry>					
+                </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id></Id>		
+                        <SchmeNm>
+                            <Cd>BBAN</Cd>			
+                        </SchmeNm>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <RmtInf>
+                <Ustrd>VENDBILL1002</Ustrd>					
+            </RmtInf>
+        </CdtTrfTxInf>
+    </PmtInf>
+<!--End of Loop-->
+</CstmrCdtTrfInitn>
+</Document>

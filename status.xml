@@ -1,0 +1,55 @@
+<status>
+  <objects>
+    <warnings>
+      <warning>
+        <displayid>168</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+      <warning>
+        <displayid>176</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+      <warning>
+        <displayid>175</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+      <warning>
+        <displayid>157</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customrecordtype</recordtype>
+      </warning>
+      <warning>
+        <displayid>172</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+      <warning>
+        <displayid>169</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+      <warning>
+        <displayid>171</displayid>
+        <message>The object is locked and will not be included in your project.</message>
+        <recordtype>customlist</recordtype>
+      </warning>
+    </warnings>
+    <summary>
+      <totalimportedcount>70</totalimportedcount>
+      <warningcount>7</warningcount>
+    </summary>
+  </objects>
+  <files>
+    <warnings/>
+    <summary>
+      <totalimportedcount>79</totalimportedcount>
+      <warningcount>0</warningcount>
+      <generalwarning>The imported bundle contains one or more files or folders outside of the /SuiteScripts, /Web Site Hosting Files, /Templates/E-mail Templates, and /Templates/Marketing Templates folders. All components must be moved into one of those folders to deploy the imported bundle.</generalwarning>
+    </summary>
+  </files>
+  <translations/>
+  <summary>Conversion finished successfully.</summary>
+</status>

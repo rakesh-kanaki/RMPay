@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <proposal>
+        <proposalid>name</proposalid>
+        <numberofxx>custrecord_rmpay_pp_nr_of_bills</numberofxx>
+		<DbtrIBAN>custrecord_rmpay_cbd_iban</DbtrIBAN>
+		<DbtrCcy>custrecord_rmpay_cbd_currency</DbtrCcy>
+		<DbtrBIC>custrecord_rmpay_cbd_bic</DbtrBIC>
+		<CtrlSum>custrecord_rmpay_pp_ctrlsum</CtrlSum>
+		<OrgNr>custrecord_rmpay_cbd_orgnumber</OrgNr>
+		<Division>custrecord_rmpay_cbd_division</Division>
+		
+		<subsidiary>
+			<DbtrNm>custrecord_rmpay_pp_subsidiary.name</DbtrNm>
+			<DbtrStrtNm>custrecord_rmpay_pp_subsidiary.addrtext</DbtrStrtNm>
+			<DbtrPstCd>custrecord_rmpay_pp_subsidiary.zip</DbtrPstCd>
+			<DbtrTwnNm>custrecord_rmpay_pp_subsidiary.city</DbtrTwnNm>
+			<DbtrCtry>custrecord_rmpay_pp_subsidiary.country</DbtrCtry>
+		</subsidiary>
+		
+		<trandetails>
+			<ReqdExctnDt>custrecord_rmpay_bills_pp_duedate</ReqdExctnDt>
+			<TranDate>custrecord_rmpay_bills_pp_transdt</TranDate>
+			<PayRef>custrecord_rmpay_bills_pp_payref</PayRef>				
+			<BillCurrency>custrecord_rmpay_bills_pp_currency</BillCurrency>
+			<BillAmount>custrecord_rmpay_bills_pp_amount</BillAmount>
+			<CdtrNm>custrecord_rmpay_bills_pp_vendorbill</CdtrNm>
+			<CdtrCtry>custrecord_rmpay_vbd_country</CdtrCtry>
+			<CdtrAccount>custrecord_rmpay_vbd_bban</CdtrAccount>
+			<CdtrIBAN>custrecord_rmpay_vbd_iban</CdtrIBAN>
+			<CdtrBIC>custrecord_rmpay_vbd_bic</CdtrBIC>
+			<CdtrReportingCd>custrecord_rmpay_vbd_reg_rep_code</CdtrReportingCd>
+			
+			<KID>custbody_2663_reference_num</KID>
+			<Ref>custrecord_rmpay_bills_pp_transnr</Ref>
+			<BillCrRef>custrecord_rmpay_bills_pp_bcr_ref</BillCrRef>
+		</trandetails>
+			
+    </proposal>
+ </root>

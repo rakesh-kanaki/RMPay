@@ -1,0 +1,10 @@
+<usereventscript scriptid="customscript_rmpay_freemarker_writer">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>XML-file generator (Freemarker)</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/XML-file generator (Freemarker)]</scriptfile>
+</usereventscript>

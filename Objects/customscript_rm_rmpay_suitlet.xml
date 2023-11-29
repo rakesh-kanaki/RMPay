@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_rm_rmpay_suitlet">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RM | RM Pay | Suitlet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RM-Pay/rm-rmpay-suitlet.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rmpay_suitlet">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>RM | RM Pay | Suitlet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

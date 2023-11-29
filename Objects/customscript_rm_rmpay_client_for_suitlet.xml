@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_rm_rmpay_client_for_suitlet">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RM | RM Pay | Client</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/RM-Pay/RM-Pay-CL-Proposal.js]</scriptfile>
+</clientscript>

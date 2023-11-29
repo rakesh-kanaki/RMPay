@@ -1,0 +1,37 @@
+<scheduledscript scriptid="customscript_rm_pay_sch_proposal_generat">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RM-Pay | SCH | Proposal Generation</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/RM-Pay/RM-Pay-SCH-Proposal-Generation.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rm_pay_sch_proposal_regener">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>RM-Pay | SCH | Proposal Generation - Rerun</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-08-01</startdate>
+          <starttime>17:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_rm_pay_sch_proposal_generat">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>RM-Pay | SCH | Proposal Generation</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-06-29</startdate>
+          <starttime>17:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_rmpay_payments_types">
+  <description>Payment types to be combined with record from _rmpay_banks creating payment types to be added to bills</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>RM Pay - Payment Type</name>
+  <customvalues>
+    <customvalue scriptid="val_27900_2578009_347">
+      <isinactive>F</isinactive>
+      <value>Domestic</value>
+    </customvalue>
+    <customvalue scriptid="val_27901_2578009_695">
+      <isinactive>F</isinactive>
+      <value>International IBAN</value>
+    </customvalue>
+    <customvalue scriptid="val_27902_2578009_931">
+      <isinactive>F</isinactive>
+      <value>International NON IBAN</value>
+    </customvalue>
+    <customvalue scriptid="val_28518_2578009_192">
+      <isinactive>F</isinactive>
+      <value>Intracompany</value>
+    </customvalue>
+  </customvalues>
+</customlist>

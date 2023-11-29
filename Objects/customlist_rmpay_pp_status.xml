@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_rmpay_pp_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>RM Pay - Payment Proposal Stat</name>
+  <customvalues>
+    <customvalue scriptid="pending_first_approval">
+      <isinactive>F</isinactive>
+      <value>Pending First Approval</value>
+    </customvalue>
+    <customvalue scriptid="pending_second_approval">
+      <isinactive>F</isinactive>
+      <value>Pending Second Approval</value>
+    </customvalue>
+    <customvalue scriptid="pending_final_approval">
+      <isinactive>F</isinactive>
+      <value>Pending Final Approval</value>
+    </customvalue>
+    <customvalue scriptid="approved">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="failed">
+      <isinactive>F</isinactive>
+      <value>Failed</value>
+    </customvalue>
+    <customvalue scriptid="rejected">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+  </customvalues>
+</customlist>

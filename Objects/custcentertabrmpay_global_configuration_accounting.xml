@@ -1,0 +1,10 @@
+<centertab scriptid="custcentertabrmpay_global_configuration_accounting">
+  <allcustomers>T</allcustomers>
+  <allemployees>T</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>ACCOUNTCENTER</center>
+  <label>RM Pay</label>
+</centertab>

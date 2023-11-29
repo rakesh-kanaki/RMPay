@@ -1,0 +1,38 @@
+<scheduledscript scriptid="customscript_rm_pay_sh_exchangeratecreat">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>RM-Pay-SH-Exchange Rate Creator</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/RM-Pay/RM-Pay-SH-GenerateExchangeRates.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy2">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>RM-Pay-SH-Exchange Rate Creator 2</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-09-06</startdate>
+          <starttime>17:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+    <scriptdeployment scriptid="customdeploy_rm_pay_sh_exchangeratecreat">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>SCHEDULED</status>
+      <title>RM-Pay-SH-Exchange Rate Creator</title>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <repeat></repeat>
+          <startdate>2023-08-09</startdate>
+          <starttime>07:00:00Z</starttime>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

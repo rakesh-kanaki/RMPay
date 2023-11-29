@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategoryrmpay_setup_accounting">
+  <center>ACCOUNTCENTER</center>
+  <centertab>[scriptid=custcentertabrmpay_global_configuration_accounting]</centertab>
+  <label>Setup</label>
+  <links>
+    <link>
+      <linklabel>Global Configuration</linklabel>
+      <linkobject>[scriptid=customrecord_rmpay_payment_global_config]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Company Bank Details</linklabel>
+      <linkobject>[scriptid=customrecord_rmpay_company_bank_details]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

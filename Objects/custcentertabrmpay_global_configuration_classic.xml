@@ -1,0 +1,17 @@
+<centertab scriptid="custcentertabrmpay_global_configuration_classic">
+  <allcustomers>T</allcustomers>
+  <allemployees>T</allemployees>
+  <allpartners>F</allpartners>
+  <allroles>T</allroles>
+  <allvendors>F</allvendors>
+  <audslctrole></audslctrole>
+  <center>BASIC</center>
+  <label>RM Pay</label>
+  <portlets>
+    <portlet scriptid="portlet_416_2578009_686">
+      <isportletshown>T</isportletshown>
+      <portlet>REMINDERS</portlet>
+      <portletcolumn>1</portletcolumn>
+    </portlet>
+  </portlets>
+</centertab>

@@ -1,0 +1,60 @@
+<customlist scriptid="customlist_rmpay_payment_schedule">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>RM Pay - Payment Schedule</name>
+  <customvalues>
+    <customvalue scriptid="val_27958_2578009_470">
+      <isinactive>F</isinactive>
+      <value>4 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27959_2578009_872">
+      <isinactive>F</isinactive>
+      <value>5 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27960_2578009_505">
+      <isinactive>F</isinactive>
+      <value>6 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27961_2578009_328">
+      <isinactive>F</isinactive>
+      <value>7 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27962_2578009_871">
+      <isinactive>F</isinactive>
+      <value>8 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27963_2578009_719">
+      <isinactive>F</isinactive>
+      <value>9 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27964_2578009_838">
+      <isinactive>F</isinactive>
+      <value>10 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27965_2578009_251">
+      <isinactive>F</isinactive>
+      <value>11 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27966_2578009_463">
+      <isinactive>F</isinactive>
+      <value>12 AM</value>
+    </customvalue>
+    <customvalue scriptid="val_27967_2578009_748">
+      <isinactive>F</isinactive>
+      <value>1 PM</value>
+    </customvalue>
+    <customvalue scriptid="val_27968_2578009_311">
+      <isinactive>F</isinactive>
+      <value>2 PM</value>
+    </customvalue>
+    <customvalue scriptid="val_27969_2578009_972">
+      <isinactive>F</isinactive>
+      <value>3 PM</value>
+    </customvalue>
+    <customvalue scriptid="val_27970_2578009_508">
+      <isinactive>F</isinactive>
+      <value>4 PM</value>
+    </customvalue>
+  </customvalues>
+</customlist>

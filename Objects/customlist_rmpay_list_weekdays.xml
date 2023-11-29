@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_rmpay_list_weekdays">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Weekdays</name>
+  <customvalues>
+    <customvalue scriptid="val_27760_2578009_545">
+      <isinactive>F</isinactive>
+      <value>Monday</value>
+    </customvalue>
+    <customvalue scriptid="val_27761_2578009_317">
+      <isinactive>F</isinactive>
+      <value>Tuesday</value>
+    </customvalue>
+    <customvalue scriptid="val_27762_2578009_316">
+      <isinactive>F</isinactive>
+      <value>Wednesday</value>
+    </customvalue>
+    <customvalue scriptid="val_27763_2578009_517">
+      <isinactive>F</isinactive>
+      <value>Thursday</value>
+    </customvalue>
+    <customvalue scriptid="val_27764_2578009_462">
+      <isinactive>F</isinactive>
+      <value>Friday</value>
+    </customvalue>
+  </customvalues>
+</customlist>

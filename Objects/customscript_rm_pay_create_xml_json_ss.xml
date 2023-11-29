@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_rm_pay_create_xml_json_ss">
+  <description>Create XML file from JSON for bank payment</description>
+  <isinactive>F</isinactive>
+  <name>RM | RMPAY Create XML From JSON SS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/RM-Pay/rm_pay_create_xml_json_ss.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rm_pay_create_xml_json_ss">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>RM | RMPAY Create XML From JSON SS</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-09-18</startdate>
+          <starttime>17:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

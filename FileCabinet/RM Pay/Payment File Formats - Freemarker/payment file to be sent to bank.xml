@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03 pain.001.001.03.xsd">
+<CstmrCdtTrfInitn>
+    <GrpHdr>
+        <MsgId>${proposalid}</MsgId>							
+        <CreDtTm>${system.date}</CreDtTm>		
+        <NbOfTxs>${numberofxx}</NbOfTxs>						
+        <CtrlSum>${CtrlSum}</CtrlSum>					
+        <InitgPty>
+            <Nm>${subsidiary.DbtrNm}</Nm>			
+            <Id>
+                <OrgId>
+                    <Othr>
+                        <Id>${OrgNr}</Id>		
+                        <SchmeNm>
+                            <Cd>CUST</Cd>
+                        </SchmeNm>
+                    </Othr>
+                    <Othr>
+                        <Id>${Division}</Id>			
+                        <SchmeNm>
+                            <Cd>BANK</Cd>
+                        </SchmeNm>
+                    </Othr>
+                </OrgId>
+            </Id>
+        </InitgPty>
+    </GrpHdr>
+<!--start of Loop-->
+    <PmtInf>
+        <PmtInfId>${proposalid}_${trandetails.PayRef}</PmtInfId>			
+        <PmtMtd>TRF</PmtMtd>
+        <BtchBookg>false</BtchBookg>
+        <NbOfTxs>1</NbOfTxs>						
+        <CtrlSum>${trandetails.BillAmount}</CtrlSum>						
+        <ReqdExctnDt>${trandetails.ReqdExctnDt}</ReqdExctnDt>		
+        <Dbtr>
+            <Nm>${subsidiary.DbtrNm}</Nm>			
+            <PstlAdr>
+                <StrtNm>${subsidiary.DbtrStrtNm}</StrtNm>		
+                <PstCd>${subsidiary.DbtrPstCd}</PstCd>					
+                <TwnNm>${subsidiary.DbtrTwnNm}</TwnNm>			
+                <Ctry>${subsidiary.DbtrCtry}</Ctry>						
+                <AdrLine>${subsidiary.DbtrStrtNm}  ${subsidiary.DbtrPstCd}  ${subsidiary.DbtrTwnNm}  ${subsidiary.DbtrCtry}</AdrLine>  
+            </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+            <Id>  
+                <IBAN>${DbtrIBAN}</IBAN>		
+            </Id>
+            <Ccy>${DbtrCcy}</Ccy>							
+        </DbtrAcct>
+        <DbtrAgt>
+            <FinInstnId>
+                <BIC>${DbtrBIC}</BIC>					
+            </FinInstnId>
+        </DbtrAgt>
+
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>${trandetails.PayRef}</InstrId>		
+                <EndToEndId>${trandetails.PayRef}</EndToEndId>	
+            </PmtId>
+            <Amt>
+                <InstdAmt Ccy="${trandetails.BillCurrency}">${trandetails.BillAmount}</InstdAmt>	  
+            </Amt>
+            <Cdtr>
+                <Nm>${trandetails.CdtrNm}</Nm>				
+                <PstlAdr>
+                    <Ctry>${trandetails.CdtrNm}</Ctry>					
+                </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>${trandetails.CdtrAccount}</Id>		
+                        <SchmeNm>
+                            <Cd>BBAN</Cd>			
+                        </SchmeNm>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <RmtInf>
+                <Ustrd>${trandetails.Ref}</Ustrd>					
+            </RmtInf>
+        </CdtTrfTxInf>
+    </PmtInf>
+<!--End of Loop-->
+</CstmrCdtTrfInitn>
+</Document>

@@ -1,0 +1,73 @@
+/**
+ * @NApiVersion 2.x
+ * @NScriptType UserEventScript
+ * @NModuleScope SameAccount
+ */
+define(['N/file', 'N/render', 'N/runtime', 'N/record'], function(file, render, runtime, record) {
+  
+  function afterSubmit(context) {
+    if (context.type !== context.UserEventType.CREATE && context.type !== context.UserEventType.EDIT) {
+      return;
+    }
+    
+    var newRecord = context.newRecord;
+    var fileFormat = newRecord.getValue({
+      fieldId: '_rmpay_cbd_bank_file_format'
+    });
+    
+    // Specify the folder ID where the file will be stored
+    var folderId = 1234;
+    
+    // Generate the file content using Freemarker code
+    var templateContent = "<#assign data = {}>\n<#-- Add your Freemarker code here -->";
+    var fileContent = render.mergeEmail({
+      templateString: templateContent,
+      entity: newRecord
+    });
+    
+    // Determine the file extension based on the file format
+    var fileExtension;
+    switch (fileFormat) {
+      case 'XML':
+        fileExtension = 'xml';
+        break;
+      case 'TXT':
+        fileExtension = 'txt';
+        break;
+      case 'DAT':
+        fileExtension = 'dat';
+        break;
+      default:
+        fileExtension = 'txt';
+        break;
+    }
+    
+    // Create the file
+    var fileName = 'generated_file.' + fileExtension;
+    var fileObj = file.create({
+      name: fileName,
+      fileType: file.Type.PLAINTEXT,
+      contents: fileContent,
+      folder: folderId
+    });
+    
+    // Save the file
+    var fileId = fileObj.save();
+    
+    // Optionally, attach the file to the record
+    record.attach({
+      record: {
+        type: newRecord.type,
+        id: newRecord.id
+      },
+      to: {
+        type: 'file',
+        id: fileId
+      }
+    });
+  }
+  
+  return {
+    afterSubmit: afterSubmit
+  };
+});

@@ -1,0 +1,148 @@
+<customlist scriptid="customlist_rm_bank_reporting_codes">
+  <description>RM Reporting Codes For International Transfers</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>RM Bank Reporting Codes</name>
+  <customvalues>
+    <customvalue scriptid="val_917011_6227880_690">
+      <isinactive>F</isinactive>
+      <value>NO14 Purchase / sale of goods</value>
+    </customvalue>
+    <customvalue scriptid="val_917012_6227880_752">
+      <isinactive>F</isinactive>
+      <value>NO26 Rent (all kinds)</value>
+    </customvalue>
+    <customvalue scriptid="val_917013_6227880_766">
+      <isinactive>F</isinactive>
+      <value>NO29 Other services (not rent)</value>
+    </customvalue>
+    <customvalue scriptid="val_917014_6227880_666">
+      <isinactive>F</isinactive>
+      <value>NO31 Interest</value>
+    </customvalue>
+    <customvalue scriptid="val_917015_6227880_617">
+      <isinactive>F</isinactive>
+      <value>NO35 Dividend</value>
+    </customvalue>
+    <customvalue scriptid="val_917016_6227880_156">
+      <isinactive>F</isinactive>
+      <value>NO38 Other capital gain</value>
+    </customvalue>
+    <customvalue scriptid="val_917017_6227880_477">
+      <isinactive>F</isinactive>
+      <value>NO41 Purchase/sale of real estate</value>
+    </customvalue>
+    <customvalue scriptid="val_917018_6227880_219">
+      <isinactive>F</isinactive>
+      <value>NO43 Direct investment in equities</value>
+    </customvalue>
+    <customvalue scriptid="val_917019_6227880_843">
+      <isinactive>F</isinactive>
+      <value>NO45 Direct investment in other kinds of capital investments</value>
+    </customvalue>
+    <customvalue scriptid="val_917020_6227880_465">
+      <isinactive>F</isinactive>
+      <value>NO51 Portfolio investment in equities and mutual fund units</value>
+    </customvalue>
+    <customvalue scriptid="val_917021_6227880_534">
+      <isinactive>F</isinactive>
+      <value>NO52 Portfolio investment in bonds and certificates</value>
+    </customvalue>
+    <customvalue scriptid="val_917022_6227880_906">
+      <isinactive>F</isinactive>
+      <value>NO53 Portfolio investment in derivatives</value>
+    </customvalue>
+    <customvalue scriptid="val_917023_6227880_996">
+      <isinactive>F</isinactive>
+      <value>NO71 Life insurance / pension</value>
+    </customvalue>
+    <customvalue scriptid="val_917024_6227880_258">
+      <isinactive>F</isinactive>
+      <value>NO79 Other finance investments</value>
+    </customvalue>
+    <customvalue scriptid="val_917025_6227880_220">
+      <isinactive>F</isinactive>
+      <value>NO81 Salary / wage</value>
+    </customvalue>
+    <customvalue scriptid="val_917026_6227880_481">
+      <isinactive>F</isinactive>
+      <value>NO82 Inheritance, gift etc.</value>
+    </customvalue>
+    <customvalue scriptid="val_969304_6227880_121">
+      <isinactive>F</isinactive>
+      <value>SE101 Imports/exports of goods</value>
+    </customvalue>
+    <customvalue scriptid="val_969305_6227880_838">
+      <isinactive>F</isinactive>
+      <value>SE122 Goods that have not passed the Swedish border; purchase of goods abroad with a view to selling them</value>
+    </customvalue>
+    <customvalue scriptid="val_969306_6227880_942">
+      <isinactive>F</isinactive>
+      <value>SE130 Freight of goods imported to Sweden</value>
+    </customvalue>
+    <customvalue scriptid="val_969307_6227880_367">
+      <isinactive>F</isinactive>
+      <value>SE131 Freight of goods exported from Sweden</value>
+    </customvalue>
+    <customvalue scriptid="val_969308_6227880_204">
+      <isinactive>F</isinactive>
+      <value>SE173 Storage, shipping, transit, port, and terminal costs, etc.</value>
+    </customvalue>
+    <customvalue scriptid="val_969309_6227880_387">
+      <isinactive>F</isinactive>
+      <value>SE223 Other travel expenses (expenditure for hotels, courses, conferences, etc.)</value>
+    </customvalue>
+    <customvalue scriptid="val_969310_6227880_144">
+      <isinactive>F</isinactive>
+      <value>SE331 Fees and commission on bank-, broker and management services etc.</value>
+    </customvalue>
+    <customvalue scriptid="val_969311_6227880_248">
+      <isinactive>F</isinactive>
+      <value>SE410 Computing services (hardware and software consultancy and implementation, data processing, etc.)</value>
+    </customvalue>
+    <customvalue scriptid="val_969312_6227880_427">
+      <isinactive>F</isinactive>
+      <value>SE423 Royalties and licence fees for the use of proprietary rights</value>
+    </customvalue>
+    <customvalue scriptid="val_969313_6227880_164">
+      <isinactive>F</isinactive>
+      <value>SE440 Advertising, market research and public opinion polls</value>
+    </customvalue>
+    <customvalue scriptid="val_969314_6227880_958">
+      <isinactive>F</isinactive>
+      <value>SE442 Architectural, engineering and other technical services</value>
+    </customvalue>
+    <customvalue scriptid="val_969315_6227880_972">
+      <isinactive>F</isinactive>
+      <value>SE462 Other services</value>
+    </customvalue>
+    <customvalue scriptid="val_969316_6227880_649">
+      <isinactive>F</isinactive>
+      <value>SE473 Commission related to the intermediation of goods</value>
+    </customvalue>
+    <customvalue scriptid="val_969317_6227880_980">
+      <isinactive>F</isinactive>
+      <value>SE560 Other transfers (damages, alimony, membership, fees, and gifts incl. taxes, etc.)</value>
+    </customvalue>
+    <customvalue scriptid="val_969318_6227880_895">
+      <isinactive>F</isinactive>
+      <value>SE601 In Sweden (foreign owner). Loan to/from foreign owner</value>
+    </customvalue>
+    <customvalue scriptid="val_969319_6227880_905">
+      <isinactive>F</isinactive>
+      <value>SE603 Outside Sweden (Swedish owner). Loan to/from foreign subsidiary/group company</value>
+    </customvalue>
+    <customvalue scriptid="val_969320_6227880_611">
+      <isinactive>F</isinactive>
+      <value>SE683 Loan to party outside Sweden (asset). Loan to party outside Sweden/amortisation of loan to party outside Sweden</value>
+    </customvalue>
+    <customvalue scriptid="val_969321_6227880_784">
+      <isinactive>F</isinactive>
+      <value>SE793 Other capital transactions</value>
+    </customvalue>
+    <customvalue scriptid="val_969322_6227880_479">
+      <isinactive>F</isinactive>
+      <value>SE940 Transfer to abroad for currency exchange and the consequent retransfer</value>
+    </customvalue>
+  </customvalues>
+</customlist>

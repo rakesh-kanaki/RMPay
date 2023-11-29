@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_rmpay_local_payment_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>RM Pay - Local Payment Type</name>
+  <customvalues>
+    <customvalue scriptid="val_27914_2578009_391">
+      <isinactive>F</isinactive>
+      <value>Denmark - FI Card 71</value>
+    </customvalue>
+    <customvalue scriptid="val_27915_2578009_767">
+      <isinactive>F</isinactive>
+      <value>Denmark - FI Card 73</value>
+    </customvalue>
+    <customvalue scriptid="val_27916_2578009_939">
+      <isinactive>F</isinactive>
+      <value>Denmark - FI Card 75</value>
+    </customvalue>
+    <customvalue scriptid="val_27912_2578009_589">
+      <isinactive>F</isinactive>
+      <value>Denmark - GiroCard 01</value>
+    </customvalue>
+    <customvalue scriptid="val_27913_2578009_936">
+      <isinactive>F</isinactive>
+      <value>Denmark - GiroCard 04</value>
+    </customvalue>
+    <customvalue scriptid="val_28452_2578009_682">
+      <isinactive>F</isinactive>
+      <value>Sweden - Bankgiro</value>
+    </customvalue>
+    <customvalue scriptid="val_28453_2578009_285">
+      <isinactive>F</isinactive>
+      <value>Sweden - Plusgiro</value>
+    </customvalue>
+  </customvalues>
+</customlist>

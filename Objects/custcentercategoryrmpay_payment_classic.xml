@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategoryrmpay_payment_classic">
+  <center>BASIC</center>
+  <centertab>[scriptid=custcentertabrmpay_global_configuration_classic]</centertab>
+  <label>Payment</label>
+  <links>
+    <link>
+      <linklabel>Payment Proposal</linklabel>
+      <linkobject>[scriptid=customrecord_rmpay_payment_proposal]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Payment Approval</linklabel>
+      <linkobject>[scriptid=customscript_rm_rmpay_suitlet.customdeploy_rmpay_suitlet]</linkobject>
+      <linktasktype>SCRIPT</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

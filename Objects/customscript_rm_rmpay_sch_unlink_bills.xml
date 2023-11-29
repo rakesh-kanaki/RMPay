@@ -1,0 +1,24 @@
+<scheduledscript scriptid="customscript_rm_rmpay_sch_unlink_bills">
+  <description>This script will be used to unlink payment proposal bills from their parents if vendor bills are not present on that record.</description>
+  <isinactive>F</isinactive>
+  <name>RM | RM Pay | SCH | Unlink Bills From PP</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/RM-Pay/RM-Pay-SCH-Unlink-Bills-Linked-To-Payment-Proposal-If-Vendor-Bill-Not-Attached.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rm_rmpay_sch_unlink_bills">
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>NOTSCHEDULED</status>
+      <title>RM | RM Pay | SCH | Unlink Bills From PP</title>
+      <recurrence>
+        <single>
+          <repeat></repeat>
+          <startdate>2023-10-19</startdate>
+          <starttime>17:00:00Z</starttime>
+        </single>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

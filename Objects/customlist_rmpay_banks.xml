@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_rmpay_banks">
+  <description>List of all banks available for payment through RM Pay</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>RM Pay - Banks</name>
+  <customvalues>
+    <customvalue scriptid="val_27894_2578009_573">
+      <isinactive>F</isinactive>
+      <value>DNB</value>
+    </customvalue>
+    <customvalue scriptid="val_27896_2578009_579">
+      <isinactive>F</isinactive>
+      <value>SEB</value>
+    </customvalue>
+    <customvalue scriptid="val_27895_2578009_595">
+      <isinactive>F</isinactive>
+      <value>Sparebank1</value>
+    </customvalue>
+    <customvalue scriptid="val_27897_2578009_183">
+      <isinactive>F</isinactive>
+      <value>Swedbank</value>
+    </customvalue>
+  </customvalues>
+</customlist>

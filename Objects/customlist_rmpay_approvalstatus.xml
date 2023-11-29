@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_rmpay_approvalstatus">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>RM-Pay Approval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_28827_2578009_692">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_28828_2578009_613">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_28829_2578009_540">
+      <isinactive>F</isinactive>
+      <value>Partial Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_28830_2578009_652">
+      <isinactive>F</isinactive>
+      <value>Pending Approval</value>
+    </customvalue>
+  </customvalues>
+</customlist>

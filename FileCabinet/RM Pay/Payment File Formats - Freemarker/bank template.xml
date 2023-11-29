@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <proposal>
+        <proposalname>altname</proposalname>
+        <proposalid>name</proposalid>
+        <proposalstatus>custrecord_rmpay_pp_status</proposalstatus>
+			<trandetails>
+				<billpayref>custrecord_rmpay_bills_pp_ref</billpayref>
+				<vendorbillno>custrecord_rmpay_bills_pp_vendorbill</vendorbillno>
+				<billcurrency>custrecord_rmpay_bills_pp_currency</billcurrency>
+				<billamount>custrecord_rmpay_bills_pp_amount</billamount>
+				<billpaymenttype>custrecord_rmpay_bills_pp_pay_tp</billpaymenttype>
+				<billtrannr>custrecord_rmpay_bills_pp_transnr</billtrannr>
+			</trandetails>
+			
+    </proposal>
+ </root>
